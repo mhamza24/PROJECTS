@@ -1,0 +1,7 @@
+*****loan*****
+Name: ali
+Account number: oopali44957
+You have taken Loan of: 100000
+Payable Amount: 106000.0
+Every Month you will pay: 8833.333333333334
+***************
