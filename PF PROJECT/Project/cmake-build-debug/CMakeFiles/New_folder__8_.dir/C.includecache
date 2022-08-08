@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/alifa/Desktop/New folder (8)/New folder (8)/main.c
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+windows.h
+-
+string.h
+-
+unistd.h
+-
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="New_folder__8_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="New_folder__8_">
+				<Option output="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/New_folder__8_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gcc/include"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 New_folder__8_"/>
+					<CompileFile command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="New_folder__8_/fast">
+				<Option output="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/New_folder__8_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/gcc/include"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\gcc\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 New_folder__8_/fast"/>
+					<CompileFile command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/gcc/bin/mingw32-make.exe -f &quot;C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/main.c">
+			<Option target="New_folder__8_"/>
+		</Unit>
+		<Unit filename="C:/Users/alifa/Desktop/New folder (8)/New folder (8)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

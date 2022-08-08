@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1609594914 source:c:\users\msi\desktop\codes\bank1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+
+1610375401 source:c:\users\msi\downloads\new folder (8) (1)\new folder (8)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+

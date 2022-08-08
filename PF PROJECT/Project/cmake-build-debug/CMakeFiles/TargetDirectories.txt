@@ -1,0 +1,3 @@
+C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/CMakeFiles/New_folder__8_.dir
+C:/Users/alifa/Desktop/New folder (8)/New folder (8)/cmake-build-debug/CMakeFiles/edit_cache.dir
