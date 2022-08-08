@@ -1,0 +1,208 @@
+body
+{
+
+	background-image:url(../IMAGES/b5.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:cover;
+	background-attachment:fixed;
+}
+li
+{
+	text-align: center;
+	display:inline;
+	padding:7.2%;
+}
+.nav-hover li:hover
+{
+	color:#F7F9F9;
+	font-size:150%;
+}
+nav
+{
+	opacity:0.5;
+	background-color:#F8F9F9;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	margin-left: 2%;
+	margin-right:1%;
+
+}
+.nav
+{
+	
+	font-size:120%;
+	font-family:bold;
+}
+h1
+{
+	color:#F7F9F9;
+	text-decoration: underline;
+	padding-top:2%;
+	text-align: center;
+	font-size:200%;
+	
+}
+img
+{
+	padding:6%;
+	
+}
+.logo-img
+{
+ position: center;
+}
+.li-color
+{
+	color:black
+}
+.p2
+{
+	color:#F7F9F9;
+	text-align: center;
+	font-size:175%;
+}
+#logo-img 
+{
+    height: 200px;
+    border-radius: 35%;
+    box-shadow: 100% 100% 100% rgba(0,0,0,0.5);
+    width: 200px;
+    margin-bottom: -64px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#283746;
+   color: white;
+   text-align: center;
+}
+.col-container {
+  display: table;
+  width: 100%;
+
+
+}
+.col {
+
+  display: table-cell;
+  padding: 16px;
+  color:#283746;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+ 	margin: 0px 0px 0px 60%;
+  	float: left;
+	border-radius: 10px;
+	padding-bottom:5%;
+	font-size: 25px;
+	color:#F7F9F9;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: transparent;
+	border-bottom: 5px solid transparent;
+	text-shadow: 0px -2px transparent;
+}
+
+.red
+{
+	background-color: transparent;
+	border-bottom: 5px solid transparent;
+	text-shadow: 0px -2px transparent;
+}
+
+.green
+{
+	background-color: transparent;
+	border-bottom: 5px solid transparent;
+	text-shadow: 0px -2px transparent;
+}
+
+.yellow
+{
+	background-color: transparent;
+	border-bottom: 5px solid transparent;
+	text-shadow: 0px -2px transparent;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.button-positions
+{
+	padding:0%;
+	margin-right:50%; 
+}
+.button-colors
+{
+	color:#F8F9F9;
+}
+.pics
+{
+	border: 5px solid #555;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;
+  background-color: #121212;  
+}
+
+#parent {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  position: relative;
+}
+
+#border {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  position: absolute;
+  right: -7px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 600ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 800px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,255,0,.75);}
+  to{border-bottom-color: transparent;}
+}

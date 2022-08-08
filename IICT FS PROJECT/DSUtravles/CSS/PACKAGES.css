@@ -1,0 +1,279 @@
+body
+{
+
+	background-image:url(../IMAGES/b5.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:cover;
+	background-attachment:fixed;
+}
+li
+{
+	text-align: center;
+	display:inline;
+	padding:7.2%;
+}
+.nav-hover li:hover
+{
+	color:#F7F9F9;
+	font-size:150%;
+}
+nav
+{
+	opacity:0.5;
+	background-color:#F8F9F9;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	margin-left: 2%;
+	margin-right:1%;
+
+}
+.nav
+{
+	
+	font-size:120%;
+	font-family:bold;
+}
+h1
+{
+	color:#F7F9F9;
+	text-decoration: underline;
+	padding-top:2%;
+	text-align: center;
+	font-size:200%;
+	
+}
+img
+{
+	padding:6%;
+	
+}
+.logo-img
+{
+ position: center;
+}
+.li-color
+{
+	color:black
+}
+.p2
+{
+	color:#F7F9F9;
+	text-align: center;
+	font-size:175%;
+}
+#logo-img 
+{
+    height: 200px;
+    border-radius: 35%;
+    box-shadow: 100% 100% 100% rgba(0,0,0,0.5);
+    width: 200px;
+    margin-bottom: -64px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+}
+.col-container {
+  display: table;
+  width: 200%;
+  
+  
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+  color:#283746;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+ 	margin: 0px 0px 0px 60%;
+  	float: left;
+	border-radius: 10px;
+	padding-bottom:5%;
+	font-size: 25px;
+	color:#F7F9F9;
+	text-decoration: none;	
+}
+.yellow
+{
+	background-color: transparent;
+	border-bottom: 5px solid transparent;
+	text-shadow: 0px -2px transparent;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.button-positions
+{
+	padding: 5%;
+    margin-right: -30%;
+    margin-left: :57%;
+    margin-bottom: 5%;
+}
+
+h2
+{
+	font-size:32px;
+	text-align:center;
+	color:#F7F9F9;
+	padding:2%;
+}
+.dubai
+{
+	margin:-1%;
+	float: left;
+}
+.dubai-des
+{
+	
+	color:#F7F9F9;
+	margin-top: 3%;
+    margin-left: 31%;
+    margin-right: 35%;
+}
+.feildset-2
+{
+	background-image: url(../IMAGES/p2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:cover;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+	margin-right:15%;
+	margin-left: 15%;
+
+}
+.feildset-3
+{
+	background-image: url(../IMAGES/p3.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:cover;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+	margin-right:15%;
+	margin-left: 15%;
+
+}
+.feildset-1
+{
+	background-image: url(../IMAGES/p1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:cover;
+	
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+	margin-right:15%;
+	margin-left: 15%;
+
+}
+.feildset-4
+{
+	margin-right:15%;
+	margin-left: 15%;
+	background-image: url(../IMAGES/p4.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:100%;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+}
+.feildset-5
+{
+	background-image: url(../IMAGES/p5.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:100%;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+}
+.feildset-6
+{
+	background-image: url(../IMAGES/p6.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:100%;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+}
+.feildset-7
+{
+	background-image: url(../IMAGES/p7.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:100%;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+}
+.feildset-8
+{
+	background-image: url(../IMAGES/p8.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+	background-size:100%;
+	opacity: 0.85;
+	border:groove;
+	border-radius:32%;
+	color:#F7F9F9; 
+}
+
+.pimg-padding
+{
+	margin: 16%;
+    margin-top: 0%;
+    margin-right: 50%;
+    margin-left: -4%;
+    margin-bottom: -4%;
+}
+.pimg--padding
+{
+    margin: 16%;
+    margin-top: -225%;
+    margin-right: -78%;
+    margin-left: 105%;
+    margin-bottom: -4%;
+}
+
