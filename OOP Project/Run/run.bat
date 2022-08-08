@@ -1,1 +1,0 @@
-java -jar Bank_Management_System_PROJECT.jar
