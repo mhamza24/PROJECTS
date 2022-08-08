@@ -1,0 +1,4 @@
+Qazi;20;DSU;2.98;hr;Money Qazi20 se002.98
+Ali sarwar;20;DSU;3;Manager;Money and to get experience Ali sarwar20 se003
+Hamza;20;DSU;3.12;Senior Developer;To enhance skill and to get industrial experience Hamza20 se003.12
+Hamza;20;DSU;3.12;Devloper;to get experience and enhance skill Hamza20 se003.12
