@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.767);
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.fieldset
+{
+   margin: 12% 35% 12% 35%;
+   border: 5px groove;
+   background-color: whitesmoke;
+   box-shadow:0 0 25px rgb(0, 0, 0);
+   border:1px solid hsla(0, 7%, 38%, 0.075);
+   border-radius:7%;
+	
+}
+input
+{
+    border: none;
+    border-radius: 4%;
+    background-color: #6e7f9254;
+    color: white;
+    padding: 5px;
+}
+#Signup_h1
+{
+    text-align: center;
+}
+.Signup
+{
+    text-align: center;
+}
+#Signup_p
+{
+    float: right;
+    padding-right: 2%;
+}
+.login
+{
+    text-align: center;
+}
+#SignupDiv2
+{
+    float: left;
+    margin-left: 1%;
+}
+span
+{
+    color: #292e33cb;
+}
+button 
+{
+    border-radius: 4%;
+    background-color: #6e7f9254;
+    size: 5%;
+    color: black;
+    border: 5px solid #2a333d07; 
+}
+
+    </style>
+    <title>login</title>
+</head>
+<body>
+    <form action ="/" method="POST">
+        <fieldset class="fieldset">
+            <div class="login">
+                
+                <h1 id="Signup_h1">login</h1>
+                <input type="email" placeholder="Email" name="email">
+                <br><br>
+                <input type="password" placeholder="Password" name="password">
+                <br><br>
+                <button>login</button>
+                <br>
+                <b>
+                    <p id="Signup_p">No account ?<a href="Signup.html"><span>Signup</span></a></p>
+                </b>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

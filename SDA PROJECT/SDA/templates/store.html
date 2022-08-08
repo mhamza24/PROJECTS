@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <style>
+        body
+        {
+            padding: 0%;
+            margin: 0%;
+            font-family: Tahoma, Verdana, sans-serif;
+        }
+        img
+        {
+          padding: 4.8%;
+        }
+        h1
+        {
+            
+            margin: 8% 10%;
+            font-size: 65px;
+
+        } 
+        fieldset
+        {
+          margin: 12% 35% 12% 35%;
+          border: 5px groove;
+          background-color: whitesmoke;
+          box-shadow:0 0 25px rgb(0, 0, 0);
+          border:1px solid hsla(0, 7%, 38%, 0.075);
+          border-radius:7%;
+          
+        }
+        button 
+        {
+            border-radius: 4%;
+            background-color: #6e7f9254;
+            size: 5%;
+            color: black;
+            border: 5px solid #2a333d07; 
+        }
+        button 
+        {
+            border-radius: 4%;
+            background-color: #6e7f9254;
+            size: 5%;
+            color: black;
+            border: 5px solid #2a333d07; 
+        }
+        
+    </style>
+</head>
+<body>
+    <button style="float:right;font-size:40px;"><a href="admin.html">Admin</a></button>
+    <br><br><br>
+    <h1>{{temp.fname}},</h1>
+    <br><br><br>
+      
+      <img src="https://czone.com.pk/images/thumbnails-large/20170804134232-43771-1540-6040-231117013355.jpg" title="Bloody Q81 Neon" width="200" height="200">
+      <img src="https://czone.com.pk/images/thumbnails-large/13-czone.com.pk-1540-11701-150621084423.jpg" title="Redragon M612" width="200" height="200">
+      <img src="https://czone.com.pk/Images/Thumbnails/9-czone.com.pk-1540-12542-021221072237.jpg" title="Bloody W70" width="200" height="200">
+      <img src="https://czone.com.pk/images/thumbnails-large/20-czone.com.pk-1540-12868-020222072752.jpg" title="Rapoo V500PRO Wired Mechanical Gaming Keyboard | Black" width="200" height="200">
+      <img src="https://czone.com.pk/images/thumbnails-large/22-czone.com.pk-1540-12848-270122083710.jpg" title="Redragon Dragonborn K630 RGB Mechanical Gaming Keyboard" width="200" height="200">
+      <img src="https://czone.com.pk/images/thumbnails-large/21-czone.com.pk-1540-12177-220921125500.jpg" title="Bloody B760 Full Light Strike Gaming Keyboard" width="200" height="200">
+      <img src="https://czone.com.pk/Images/Thumbnails/22-czone.com.pk-1540-12802-210122085324.jpg" title="Bloody G573P RGB Gaming Headphones - Black" width="200" height="200">
+      <img src="https://czone.com.pk/Images/Thumbnails/29-czone.com.pk-1540-12579-111221080612.jpg" title="Bloody G500" width="200" height="200">
+      <img src="https://czone.com.pk/Images/Thumbnails/2669-821-597483-210221094413-1540-11162-010321115436.jpg" title="Bloody G530S" width="200" height="200">
+    <br><br><br>
+    <fieldset>
+    <form action="/" method="POST">
+        <label for="product">Choose your product:</label>
+        <select name="product">
+          <option value="Choose one">Choose one</option>
+          <option value="Bloody Q81 Neon">Bloody Q81 Neon</option>
+          <option value="Redragon M612">Redragon M612</option>
+          <option value="Bloody W70">Bloody W70</option>
+          <option value="Rapoo V500PRO Wired Mechanical Gaming Keyboard | Black">Rapoo V500PRO Wired Mechanical Gaming Keyboard | Black</option>
+          <option value="Redragon Dragonborn K630 RGB Mechanical Gaming Keyboard">Redragon Dragonborn K630 RGB Mechanical Gaming Keyboard</option>
+          <option value="Bloody B760 Full Light Strike Gaming Keyboard">Bloody B760 Full Light Strike Gaming Keyboard</option>
+          <option value="Bloody G573P RGB Gaming Headphones - Black">Bloody G573P RGB Gaming Headphones - Black</option>
+          <option value="Bloody G500">Bloody G500</option>
+          <option value="Bloody G530S">Bloody G530S</option>
+        </select>
+        <br><br>
+        <label for="pice">Choose a price:</label>
+        <select name="price">
+          <option value="6">Choose one</option>
+          <option value="1">3500</option>
+          <option value="2">4500</option>
+          <option value="3">4900</option>
+          <option value="4">6700</option>
+          <option value="5">5300</option>
+          <option value="5">other</option>
+        </select>
+        <br><br>
+        <label>Choose a quantity:</label>
+        <input name="quantity" type="number" max="6" min="1" placeholder="1">
+        <br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+</body>
+</html>
